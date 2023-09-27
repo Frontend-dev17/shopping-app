@@ -1,0 +1,156 @@
+    .cartpagecontainer {}
+
+    .checkoutitemlist {
+        margin: 28px 20px;
+
+    }
+
+    .checkoutitemcard {
+        background-color: #f2f2f2;
+        border-radius: 14px;
+        padding: 20px;
+        position: relative;
+        display: flex;
+        gap: 16px;
+        margin-bottom: 18px;
+    }
+
+    .trashicon {
+        position: absolute;
+        right: 25px;
+        cursor: pointer;
+    }
+
+    .imagesection {
+        width: 83px;
+        height: 79px;
+    }
+
+    .productimage {
+        width: 83px;
+        height: 79px;
+        object-fit: cover;
+        border: 2px solid rgba(0, 0, 0, 0.2);
+        border-radius: 6px;
+    }
+
+    .details {}
+
+    .name {
+        font-size: 18px;
+    }
+
+    .size {
+        margin-top: 5px;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+    .priceamount {
+        position: absolute;
+        bottom: 18px;
+    }
+
+    .actionssection {
+        position: absolute;
+        bottom: 15px;
+        right: 4%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .actions {
+        font-weight: 600;
+        padding: 6px 8px;
+        border: 1px solid grey;
+        border-radius: 4px;
+    }
+
+
+
+    .voucher {
+        margin: 0 20px;
+
+    }
+
+    .voucherinput {
+        border: none;
+        outline: none;
+        background: rgba(0, 0, 0, 0.05);
+        width: -webkit-fill-available;
+        padding: 12px;
+        border-radius: 8px;
+    }
+
+    .checkingoutdetails {
+        margin: 20px;
+
+    }
+
+    .pricingdetails {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+    }
+
+    .title {
+        color: rgba(0, 0, 0, 0.6);
+
+    }
+
+
+    .hrtile {
+        width: 92%;
+        border-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .totalsection {
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cartepmtytext {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        font-size: 24px;
+    }
+
+    .checkoutbtnsection {
+        position: fixed;
+        background: white;
+        bottom: 0;
+        left: 0;
+        padding: 30px 20px;
+        display: flex;
+        gap: 20px;
+        border-top: 1px solid grey;
+        width: 90%;
+        z-index: 999;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .checkoutbtn {
+        background: black;
+        color: white;
+        font-size: 18px;
+        border: none;
+        border-radius: 8px;
+        padding: 12px;
+        width: -webkit-fill-available;
+        outline: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .rightarrow {
+        margin-left: 8px;
+    }

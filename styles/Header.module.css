@@ -1,0 +1,33 @@
+.logosection {
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.headercontainer {
+    padding-top: 22px;
+    margin: 0px 20px;
+
+}
+
+.headerlayout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.discovertext {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.bellicon {
+    cursor: pointer;
+}

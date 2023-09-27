@@ -1,0 +1,64 @@
+/* .homepagecontainer {
+} */
+.searchfiltersection {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchcontainer {
+    position: relative;
+    display: inline-block;
+}
+
+.searchbar {
+    padding: 20px 10px 20px 41px;
+    background: #F2F2F2;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 279px;
+}
+
+.searchicon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.categoryfilters {
+    display: flex;
+    gap: 10px;
+    margin: 24px 0 20px 20px;
+    overflow-x: auto;
+}
+
+.filteroption {
+    background-color: #F2F2F2;
+    height: 38px;
+    padding: 7px 30px 7px 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.selected {
+    background-color: black;
+    color: white;
+}
+
+.productlayout {
+    margin: 10px 20px 72px 20px;
+
+}
+
+.productscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
