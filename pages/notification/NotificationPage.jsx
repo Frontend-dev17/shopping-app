@@ -6,7 +6,6 @@ import { useRouter } from "next/router";
 
 const NotificationPage = () => {
     const router = useRouter()
-    // const navigate = useNavigate()
     const handleArrowAction = () => {
         router.push('/')
     }

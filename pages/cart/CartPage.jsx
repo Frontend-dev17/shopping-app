@@ -29,7 +29,7 @@ const CartPage = () => {
 
     // Initialize these variables with numeric values
     let subTotal = 0;
-    let vat = 0.0; // Ensure it's a decimal value (e.g., 0.0 for 0% VAT)
+    let vat = 0.0;
     let shippingFee = 80; // A fixed shipping fee
     let total = 0;
 

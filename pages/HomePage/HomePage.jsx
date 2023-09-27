@@ -1,5 +1,3 @@
-// import "./HomePage.scss";
-
 import { useState } from "react";
 import styles from "../../styles/HomePage.module.css"
 

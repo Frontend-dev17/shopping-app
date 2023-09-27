@@ -1,7 +1,6 @@
 
 import { CartProvider } from '../contexts/CartContext';
 import AppRouter from './../components/Routes/AppRouter';
-// import HomePage from './HomePage/HomePage';
 
 const App = () => {
     return (
